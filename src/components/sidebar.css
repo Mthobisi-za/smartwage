@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+.line-spacer{
+    width: 90%;
+    height: 1px;
+    background: #DEE2E6;
+    margin: auto;
+}
+.side-bar{
+    background-color: #F7F7F8;
+    height: 50vw;
+    width: 20vw;
+    position: relative;
+}
+.top-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.icon-menu{
+    
+}
+.icon-menu svg{
+    margin-top: 40px;
+    margin-left: 24px;
+}
+.logo-text{
+    text-align: left;
+}
+.logo-text p{
+    font-family: 'Roboto';
+    color: #495057;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 40.5px;
+}
+/*-----bottom styles-----*/
+.bottom-menu{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+}
+.items-full-wrapper{
+    margin-top: 19.5px;
+    display: grid;
+    grid-template-columns: 30% 60% 20%;
+}
+.items-full-wrapper .item-logo img{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.item-text .title-shop{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 22px;
+    color: #495057;
+}
+.item-text .text{
+    margin-top: 22px;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+.div-last{
+    margin-top: 25px;
+}

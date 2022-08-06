@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+.line-spacer-full{
+    width: 100%;
+    height: 1px;
+    background: #DEE2E6;
+    margin: auto;
+}
+.grey{
+    background-color: #F7F7F8;
+    border-radius: 8px;
+}
+.white{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.container{
+    width:93%;
+    margin: auto;
+}
+.top-tab{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.column{
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.pagination{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 1px;
+    text-align: right;
+    
+}
+.pagination svg{
+   padding-top: 10px;
+}
+.column-container{
+    max-height: 32.5vw;
+    min-height: 32.5vw;
+    overflow: scroll;
+}
+select#page{
+    border: none;
+}

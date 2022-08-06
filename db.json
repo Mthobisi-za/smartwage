@@ -1,0 +1,35 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },
+    "surveys":[
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "1", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "2", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "3", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "4", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "5", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "6", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "7", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "8", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "9", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "10", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "11", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "12", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "13", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "14", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "15", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "16", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "17", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "18", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "19", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "20", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "21", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "22", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "23", "status": "Closed"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "24", "status": "Live"}
+     ]
+}
