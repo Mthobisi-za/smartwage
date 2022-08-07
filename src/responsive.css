@@ -25,10 +25,22 @@
     .bottom-menu{
         position: relative;
     }
+    .content-area{
+        width: 100%;
+    }
 }
 @media (max-width: 667px) {
     .side-bar{
+        width: 100%;
         grid-template-columns: auto;
         gap: 5%;
+    }
+    .bottom-menu{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto 10% 10%;
+    }
+    .line-spacer{
+        display: none;
     }
 }
