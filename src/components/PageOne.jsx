@@ -1,7 +1,7 @@
 import Sidebar from "./Sidebar";
 import Container from "./Container";
-import { useState } from "react";
 
+/*----Initial Page---*/ 
 function PageOne({navigation}){
   
     return(
@@ -15,4 +15,5 @@ function PageOne({navigation}){
     )
 
 }
+/*----Initial Page---*/ 
 export default PageOne

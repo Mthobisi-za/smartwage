@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
 .line-spacer{
     width: 90%;
     height: 1px;
@@ -16,9 +17,7 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-.icon-menu{
-    
-}
+
 .icon-menu svg{
     margin-top: 40px;
     margin-left: 24px;
