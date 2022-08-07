@@ -1,27 +1,29 @@
 import { useEffect, useState } from 'react';
 import './container.css';
 import Row from './Row';
-function Container(){
+function Container({navigation}){
+    //nav
     var colorState = true;
     const [survey, setSurvey] = useState(null);
     const [pageNum, setPageNum] = useState(1);
     const [limit, setLimit] = useState(8);
     const [cal, setCal] = useState(0);
+    const [usenum, setUseNum] = useState(true);
+
     useEffect(() => {
         fetch(`http://localhost:3000/surveys?_page=${pageNum}&_limit=${limit}`)
          .then((para) => para.json()).then(res =>{setSurvey(res)});
          fetch('http://localhost:3000/surveys').then(res => res.json()).then(res =>{var length = res.length / limit;setCal(length)} )
-      }, [pageNum, limit]);
+      }, [limit, pageNum]);
 
     function done(){
     const surveyList = survey.map((item) => 
-    item.status == 'Live'? <Row surveyName={item.surveyName} createdBy={item.createdBy} responses={item.responses} launchDate={item.launchDate} closeDate={item.closeDate} status={item.status} color="grey" key={item.closeDate+item.closeDate}/> :
-    <Row surveyName={item.surveyName} createdBy={item.createdBy} responses={item.responses} launchDate={item.launchDate} closeDate={item.closeDate} status={item.status} color="white"/>  
+    item.status == 'Live'? <Row surveyName={item.surveyName} createdBy={item.createdBy} responses={item.responses} launchDate={item.launchDate} closeDate={item.closeDate} status={item.status} color="grey" key={item.closeDate+item.closeDate} navigation={navigation}/> :
+    <Row surveyName={item.surveyName} createdBy={item.createdBy} responses={item.responses} launchDate={item.launchDate} closeDate={item.closeDate} status={item.status} color="white" navigation={navigation}/>  
     );
     return surveyList}
     function makeOption(){
         var count = 0;
-
     }
     
     return(

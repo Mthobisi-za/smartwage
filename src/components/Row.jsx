@@ -1,10 +1,13 @@
+import { useState } from 'react'
 import './row.css'
 
 
-function Row({surveyName, createdBy, responses, launchDate, closeDate, status, color}){
+function Row({surveyName, createdBy, responses, launchDate, closeDate, status, color, navigation, changeUseNum}){
     var str = 'column'
+    var secStr = 'tab'
+    const [color_r, setColor_r] = useState(true)
     return(
-            <div className="tab">
+            <div className={secStr} >
                 <div className="column">
                     <p>{surveyName}</p>
                 </div>
@@ -23,7 +26,7 @@ function Row({surveyName, createdBy, responses, launchDate, closeDate, status, c
                 <div className="column">
                     <p className={str+ ' ' + status}>{status}</p>
                 </div>
-                <div className="column">
+                <div className="column" onClick={()=>{navigation(closeDate, surveyName)}} >
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-line" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <line x1="4" y1="19" x2="20" y2="19" />

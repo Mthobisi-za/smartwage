@@ -1,0 +1,20 @@
+.second-page-container{
+    display: block;
+    width: 95vw;
+    height: 45vw;
+    border: 2px black solid;
+    margin: auto;
+    margin-top: 2.5vw;
+    border-radius: 30px;
+    overflow: scroll;
+}
+.second-top{
+    display: flex;
+    gap: 5%;
+    border-bottom: 2px black solid;
+}
+.second-text{
+    margin-top: 30px;
+    font-size: large;
+    font-weight: bold;
+}

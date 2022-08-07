@@ -1,35 +1,72 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" },
     "surveys":[
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "1", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "2", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "3", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "4", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "5", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "6", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "7", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "8", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "9", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "10", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "11", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "12", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "13", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "14", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "15", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "16", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "17", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "18", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "19", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "20", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "21", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "22", "status": "Live"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "23", "status": "Closed"},
-        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "I love It, It is tasty.", "launchDate": "20/03/2022", "closeDate": "24", "status": "Live"}
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "1", "status": "Live"},
+        {"surveyName": "Mac Feast", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "2", "status": "Live"},
+        {"surveyName": "Jalapeno", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "3", "status": "Closed"},
+        {"surveyName": "Quick Bite", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "4", "status": "Live"},
+        {"surveyName": "stew", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "5", "status": "Closed"},
+        {"surveyName": "Full Stomach", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "6", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "7", "status": "Live"},
+        {"surveyName": "Mac Feast", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "8", "status": "Live"},
+        {"surveyName": "Jalapeno", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "9", "status": "Closed"},
+        {"surveyName": "Quick Bite", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "10", "status": "Live"},
+        {"surveyName": "stew", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "11", "status": "Closed"},
+        {"surveyName": "Full Stomach", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "12", "status": "Live"},
+        {"surveyName": "Big Mac", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "13", "status": "Live"},
+        {"surveyName": "Mac Feast", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "24", "status": "Live"},
+        {"surveyName": "Jalapeno", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "25", "status": "Closed"},
+        {"surveyName": "Quick Bite", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "26", "status": "Live"},
+        {"surveyName": "stew", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "27", "status": "Closed"},
+        {"surveyName": "Full Stomach", "createdBy": "Mthobisi Ngubane", "responses": "25", "launchDate": "20/03/2022", "closeDate": "28", "status": "Live"}
+       ],
+     "feedback":[
+       {"surveyName": "Big Mac","closeDate": "1", "response": [
+         {"userName": "Jack", "comment": "It is so tasty"},
+         {"userName": "Danielle", "comment": "I can't Leave without this food! Big mac rocks"},
+         {"userName": "John", "comment": "My daily pill"},
+         {"userName": "Marylan", "comment": "I just love it"},
+         {"userName": "Bibo", "comment": "It is really bad! won't recommend this deal"},
+         {"userName": "Chester", "comment": "It is fine"}
+       ]},
+       {"surveyName": "Mac Feast","closeDate": "2", "response": [
+        {"userName": "Jack", "comment": "It is so tasty"},
+        {"userName": "Danielle", "comment": "I can't Leave without this food! Mac Feast rocks"},
+        {"userName": "John", "comment": "My daily pill"},
+        {"userName": "Marylan", "comment": "I just love it"},
+        {"userName": "Bibo", "comment": "It is really bad! won't recommend this deal"},
+        {"userName": "Chester", "comment": "It is fine"}
+      ]},
+      {"surveyName": "Mac Feast", "closeDate": "3","response": [
+        {"userName": "Jack", "comment": "It is so tasty"},
+        {"userName": "Danielle", "comment": "I can't Leave without this food! Jalapeno rocks"},
+        {"userName": "John", "comment": "My daily pill"},
+        {"userName": "Marylan", "comment": "I just love it"},
+        {"userName": "Bibo", "comment": "It is really bad! won't recommend this deal"},
+        {"userName": "Chester", "comment": "It is fine"}
+      ]},
+      {"surveyName": "Quick Bite", "closeDate": "4","response": [
+        {"userName": "Jack", "comment": "It is so tasty"},
+        {"userName": "Danielle", "comment": "I can't Leave without this food! Quick Bite rocks"},
+        {"userName": "John", "comment": "My daily pill"},
+        {"userName": "Marylan", "comment": "I just love it"},
+        {"userName": "Bibo", "comment": "It is really bad! won't recommend this deal"},
+        {"userName": "Chester", "comment": "It is fine"}
+      ]},
+      {"surveyName": "stew","closeDate": "5", "response": [
+        {"userName": "Jack", "comment": "It is so tasty"},
+        {"userName": "Danielle", "comment": "I can't Leave without this food! stew rocks"},
+        {"userName": "John", "comment": "My daily pill"},
+        {"userName": "Marylan", "comment": "I just love it"},
+        {"userName": "Bibo", "comment": "It is really bad! won't recommend this deal"},
+        {"userName": "Chester", "comment": "It is fine"}
+      ]},
+      {"surveyName": "Full Stomach", "closeDate": "6","response": [
+        {"userName": "Jack", "comment": "It is so tasty"},
+        {"userName": "Danielle", "comment": "I can't Leave without this food! Full Stomach rocks"},
+        {"userName": "John", "comment": "My daily pill"},
+        {"userName": "Marylan", "comment": "I just love it"},
+        {"userName": "Bibo", "comment": "It is really bad! won't recommend this deal"},
+        {"userName": "Chester", "comment": "It is fine"}
+      ]}
      ]
 }

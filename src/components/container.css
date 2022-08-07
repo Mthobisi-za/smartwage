@@ -22,7 +22,7 @@
 .top-tab{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% auto;
 }
 .column{
     font-family: 'Roboto';
