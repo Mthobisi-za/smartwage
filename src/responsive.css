@@ -36,11 +36,14 @@
         gap: 5%;
     }
     .bottom-menu{
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: auto 10% 10%;
     }
     .line-spacer{
         display: none;
+    }
+    .column p{
+        font-size: small;
     }
 }
