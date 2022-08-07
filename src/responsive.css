@@ -46,4 +46,13 @@
     .column p{
         font-size: small;
     }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+    .Live,.Close{
+        font-size: smaller!important;
+        
+    }
+
 }
